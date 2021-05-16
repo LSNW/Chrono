@@ -1309,24 +1309,8 @@ public class ChronoManager {
             }
                 
                 
-         // if there are not enough people to create a classroom.
-         // if (posClass.getNumStudents() < Classroom.MINIMUM) {
-         //               	//removing class from students
-         //                for (int p = 0 ; p < posClass.getNumStudents() ; p++) {
-         //                   posClass.getStudents()[p].removeCourse(posClass);
-         //                }
-         //               	//removing class from mastertable arraylist
-         //                finalMT.remove(i, posClass);
-         //               	//removing class from current database in ChronoManager
-         //                for (int p = classIndex(posClass) ; p < claSize ; p++) {
-         //                   classrooms[p] = classrooms[p+1];
-         //                }
-         //                classrooms[claSize] = null;
-         //                claSize--;
-         // }
          }
       }
-      //System.out.println(claSize);
    }     
 
    // Searches for the index of a classroom
